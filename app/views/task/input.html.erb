@@ -1,0 +1,14 @@
+<h1>
+Ввод данных
+</h1>
+<h2>
+<%= flash[:notice] %>
+</h2>
+<h3>
+<%= form_with url: "/task/show", method: :get do |form| %>
+  <%= form.label :number, "Введите числа:" %>
+  <%= form.text_field :number %>
+  <%= form.submit "Выполнить" %>
+<% end %>
+</h3>
+

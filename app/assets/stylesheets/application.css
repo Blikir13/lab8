@@ -1,0 +1,23 @@
+TABLE {
+    background: maroon; 
+    color: black; 
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+   }
+   TD {
+    background: white; 
+   }
+   h2 {
+    color:red;
+   }
+   body {
+    background: #98FB98;
+   }
+  p, input, label{
+    font-size: 25px;
+    text-align: center;
+   }
+   h1{
+    text-align: center;
+   }
